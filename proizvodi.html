@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <meta name="description" content="Najsladji i najlepši slatkiši" />
+        <meta
+            name="keywords"
+            content="Cookie, Cupcake, Sladoled, Ledeni čaj, Dezerti, Slatkiši"
+        />
+        <meta name="author" content="Teodora Rudic" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Bakery - Dostava</title>
+    </head>
+    <body>
+        <header>
+            <div class="header__logo-box">
+                <a href="index.html" class="header__logo-link"
+                    ><span class="header__logo">Bakeshop</span></a
+                >
+            </div>
+        </header>
+
+        <div class="navigation">
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a
+                            href="proizvodi.html"
+                            class="navigation__link navigation__active"
+                            >Proizvodi</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="onama.html" class="navigation__link">O nama</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="dostava.html" class="navigation__link">Dostava</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <span class="navigation__open" id="openbtn">
+            <i class="fas fa-bars"></i>
+        </span>
+
+        <div id="mob__nav" class="navigation__mobile">
+            <span class="closebtn" id="closebtn">
+                &times;
+            </span>
+            <a href="proizvodi.html">Proizvodi</a>
+            <a href="onama.html">O nama</a>
+            <a href="dostava.html">Dostava</a>
+        </div>
+
+        <main>
+            <section class="selection-section">
+                <div class="selection__color-box"></div>
+                <div class="selection__wrapper">
+                    <div class="selection__left">
+                        <div
+                            id="cupcake"
+                            class="selection__category u-margin-bottom-medium"
+                        >
+                            <h2
+                                class="selection__heading u-margin-bottom-small u-center-text"
+                            >
+                                <span class="heading-primary--main">Cupcake</span>
+                            </h2>
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Oreo Eksplozija</span
+                                    >
+                                </h3>
+                                <p>
+                                    Čokoladni cupcake punjen musom od vanile i mlevenog
+                                    oreo keksa, prekriven vanila glazurom.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Limun</span>
+                                </h3>
+                                <p>
+                                    Limun cupcake punjen musom od vanile, prekriven šlagom
+                                    i komadićima limuna.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Pistać</span>
+                                </h3>
+                                <p>
+                                    Pistać cupcake, prekriven glazurom od pistaća.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Karamel Banana</span
+                                    >
+                                </h3>
+                                <p>
+                                    Cupcake od banane sa karamel punjenjem, prekriven
+                                    karamel glazurom i komadićima banane i karamele.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Nutella Churro</span
+                                    >
+                                </h3>
+                                <p>
+                                    Cupcake od cimeta punjen Nutelom i prekriven glazurom
+                                    od Nutele sa parčetom ćurosa.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Crno Belo</span>
+                                </h3>
+                                <p>
+                                    Vanila cupcake, čokoladno punjenje, čokoladna glazura
+                                    i šarene bombone.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            id="ice-cream"
+                            class="selection__category ice-cream u-margin-bottom-medium"
+                        >
+                            <h2
+                                class="selection__heading u-margin-bottom-small u-center-text"
+                            >
+                                <span class="heading-primary--main">Sladoled</span>
+                            </h2>
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Šumsko voće</span>
+                                </h3>
+                                <p>
+                                    Čokoladni cupcake punjen musom od vanile i mlevenog
+                                    oreo keksa, preliven vanila glazurom.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Lešnik</span>
+                                </h3>
+                                <p>
+                                    Limun cupcake punjen musom od vanile
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Straćatela</span>
+                                </h3>
+                                <p>
+                                    Belgijska čokolada sa komadićima lešnika, prelivena
+                                    sosom od blago kisele višnje.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Espresso karamel</span
+                                    >
+                                </h3>
+                                <p>
+                                    Belgijska čokolada sa komadićima lešnika, prelivena
+                                    sosom od blago kisele višnje.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Jagoda Bela Čokolada</span
+                                    >
+                                </h3>
+                                <p>
+                                    Belgijska čokolada sa komadićima lešnika, prelivena
+                                    sosom od blago kisele višnje.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Mango</span>
+                                </h3>
+                                <p>
+                                    Belgijska čokolada sa komadićima lešnika, prelivena
+                                    sosom od blago kisele višnje.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Plazma</span>
+                                </h3>
+                                <p>
+                                    Belgijska čokolada sa komadićima lešnika, prelivena
+                                    sosom od blago kisele višnje.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Čizkejk</span>
+                                </h3>
+                                <p>
+                                    Belgijska čokolada sa komadićima lešnika, prelivena
+                                    sosom od blago kisele višnje.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            id="drinks"
+                            class="selection__category u-margin-bottom-medium"
+                        >
+                            <h2
+                                class="selection__heading u-margin-bottom-small u-center-text"
+                            >
+                                <span class="heading-primary--main">Pića</span>
+                            </h2>
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Limunada</span>
+                                </h3>
+                                <p>
+                                    Sveže cedjena limunada zasladjena domaćim medom.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Limun-nana</span>
+                                </h3>
+                                <p>
+                                    Domaća limunada sa dodatkom listova sveže nane.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Smoothie "Tropic"</span
+                                    >
+                                </h3>
+                                <p>
+                                    Banana, Ananas, Mango, Zelena Jabuka, Spanać, Kelj
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Smoothie "Crveno"</span
+                                    >
+                                </h3>
+                                <p>
+                                    Jagoda, Malina, Borovnica, Šargarepa, Jabuka
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Smoothie "Snaga"</span
+                                    >
+                                </h3>
+                                <p>
+                                    Banana, Kikiriki Puter, Whey Protein, Mleko od Badema,
+                                    Čokolada
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Smoothie "Fresh"</span
+                                    >
+                                </h3>
+                                <p>
+                                    Šargarepa, Jagoda, Narandža, Jabuka, Djumbir
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Ledeni Čaj</span>
+                                </h3>
+                                <p>
+                                    Domaći ledeni čaj sa dodatkom limunovog soka, braon
+                                    šećera i komadićima limuna.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Kafa</span>
+                                </h3>
+                                <p>
+                                    Bez mleka, sa mlekom, u maloj ili velikoj šolji,
+                                    sojino mleko ili bademovo. Kako god da je volite, mi
+                                    je pravimo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="donuts" class="selection__right">
+                        <div class="selection__category u-margin-bottom-medium donuts">
+                            <h2
+                                class="selection__heading u-margin-bottom-small u-center-text"
+                            >
+                                <span class="heading-primary--main">Krofne</span>
+                            </h2>
+                            <div class="selection__box-item ">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Čoko Love</span>
+                                </h3>
+                                <p>
+                                    Mekano čokoladno testo prekriveno najfinijom mlečnom
+                                    čokoladom, punjeno belim kinder filom u koji je
+                                    umočena sočna sveža jagoda.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Nutella Churro</span
+                                    >
+                                </h3>
+                                <p>
+                                    Hola, Amigo! Miris svežih ćurosa umočenih u nutelu
+                                    prelili smo mlečnom čokoladom, a vazdušasto testo
+                                    nesebično uvaljali u šećerne kristale, kakao i cimet.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Limun Borovnica</span
+                                    >
+                                </h3>
+                                <p>
+                                    Kremasto punjenje od limuna, šumskog voća sa
+                                    borovnicom i nanom na vrhu. Prelivena osvežavajućom
+                                    limun čokoladom!
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Ferrero</span>
+                                </h3>
+                                <p>
+                                    Prelivena mlečnom čokoladom i posuta mrvljenim
+                                    lešnicima probudiće sva vaša čula uz crispy nuts nugat
+                                    krem i rocher čokoladicu u sredini… njami!
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Toblerone</span>
+                                </h3>
+                                <p>
+                                    Neodoljiva zvezdica odevena u belo, posuta
+                                    karamelizovanim kikirikijem i punjena slano-slatkom
+                                    karamelom u koji je uronjen trouglić Toblerone
+                                    čokolade.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Tiramisu</span>
+                                </h3>
+                                <p>
+                                    Krofnu smo ispunili ella sirom, a zatim dodali mlečnu
+                                    i belu čokoladu. Instant kafa i kakao su nam pomogli u
+                                    stvaranju krofne koja je poslasticu čuvenih Italijana
+                                    dovela u Vaš krofnasti kutak.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="cookie" class="selection__category">
+                            <h2
+                                class="selection__heading u-margin-bottom-small u-center-text"
+                            >
+                                <span class="heading-primary--main">Cookie</span>
+                            </h2>
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Classic</span>
+                                </h3>
+                                <p>
+                                    Hrskave ivice i meka čokoladna sredina čine naš
+                                    Classic cookie favorit svih!
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Kokos</span>
+                                </h3>
+                                <p>
+                                    Kokos testo sa blagim dodatkom limuna čine ovaj cookie
+                                    pravu poslasticu.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Kikiriki puter</span
+                                    >
+                                </h3>
+                                <p>
+                                    Kikiriki ukus, bez brašna i mrvicom soli čine ovaj
+                                    cookie izbor svih koji vole slatko slanu kombinaciju.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Čoko-Šeri</span>
+                                </h3>
+                                <p>
+                                    Omiljeni cookie svih koji vole ukus šeri bombona.
+                                    Čokoladni cookie punjen šeri filom. Nemojte
+                                    preterivati!
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub"
+                                        >Čoko Eksplozija</span
+                                    >
+                                </h3>
+                                <p>
+                                    Čokolada, čokolada i još čokolade! Ovaj cookie prosto
+                                    vrišti čokolada. Navalite!
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Malina</span>
+                                </h3>
+                                <p>
+                                    Kombinacija maline i čokolade. Savršen spoj čokolade i
+                                    voća. Morate probati!
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Djumbir Med</span>
+                                </h3>
+                                <p>
+                                    Sveži djumbir sa dodatkom začina uz kombinaciju
+                                    slatkog meda.
+                                </p>
+                            </div>
+
+                            <div class="selection__box-item">
+                                <h3 class="heading-primary">
+                                    <span class="heading-primary--sub">Badem</span>
+                                </h3>
+                                <p>
+                                    Djumbir i narandža se spajaju sa bademom i kardamom
+                                    kako bi stvorili ovaj ukusan cookie.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <a href="#" class="footer__logo-link">
+                    <span class="footer__logo">Bakeshop</span>
+                </a>
+            </div>
+
+            <div class="footer__nav-links">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <span class="footer__text">Radno vreme: 09-21h</span>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="mailto:info@bakery.com"
+                            ><span class="footer__text">Email: info@bakery.com</span></a
+                        >
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="tel:+38164123456"
+                            ><span class="footer__text">Tel: 064/123-456</span></a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <ul class="footer__list">
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-facebook-f footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-instagram footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-youtube footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-pinterest-p footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-twitter footer__icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/93376c1506.js"></script>
+
+        <script src="js/nav.js"></script>
+    </body>
+</html>

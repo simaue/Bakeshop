@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="Najsladji i najlepši slatkiši" />
+        <meta
+            name="keywords"
+            content="Cookie, Cupcake, Sladoled, Ledeni čaj, Dezerti, Slatkiši"
+        />
+        <meta name="author" content="Darko Simic" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Bakery - Početna</title>
+    </head>
+    <body>
+        <div class="navigation">
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a
+                            href="proizvodi.html"
+                            class="navigation__link navigation__landing"
+                            >Proizvodi</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="onama.html" class="navigation__link navigation__landing"
+                            >O nama</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a
+                            href="dostava.html"
+                            class="navigation__link  navigation__landing"
+                            >Dostava</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <span class="navigation__open" id="openbtn">
+            <i class="fas fa-bars"></i>
+        </span>
+
+        <div id="mob__nav" class="navigation__mobile">
+            <span class="closebtn" id="closebtn">
+                &times;
+            </span>
+            <a href="proizvodi.html">Proizvodi</a>
+            <a href="onama.html">O nama</a>
+            <a href="dostava.html">Dostava</a>
+        </div>
+
+        <header class="header">
+            <div class="header__background-box"></div>
+            <div class="header__logo-box">
+                <a href="index.html" class="header__logo-link"
+                    ><span class="header__logo">Bakeshop</span></a
+                >
+            </div>
+
+            <div class="header__image-box">
+                <img
+                    src="./img/cupcake-cherry.png"
+                    class="header__hero"
+                    alt="Bakeshop - Cupcake"
+                />
+            </div>
+
+            <div class="header__info-box">
+                <h1 class="heading-primary margin-bottom--small">
+                    <span class="heading-primary--main">Cupcake</span>
+                    <span class="heading-primary--main">Različite Vrste</span>
+                    <span class="heading-primary--sub">Od 99rsd/kom</span>
+                </h1>
+                <a class="btn" href="proizvodi.html">Ponuda</a>
+            </div>
+
+            <div class="header__controls">
+                <div class="header__controls-box back">
+                    <span class="header__controls-arrow">&#10094;</span>
+                </div>
+                <div class="header__controls-box forward">
+                    <span class="header__controls-arrow">&#10095;</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-products">
+                <div class="bestsellers">
+                    <h2 class="heading-primary u-margin-top-big u-margin-bottom-small">
+                        <span class="heading-primary--sub">Najprodavanije</span>
+                    </h2>
+
+                    <div class="bestsellers__products">
+                        <span class="bestsellers__arrow">&#10094;</span>
+                        <div class="bestsellers__item u-bg-yellow">
+                            <img
+                                class="bestsellers__image"
+                                src="img/cookie.png"
+                                alt="Cookie - Classic"
+                            />
+                            <h3 class="bestsellers__name">Cookie - Classic</h3>
+                        </div>
+                        <div id="second" class="bestsellers__item u-bg-pink">
+                            <img
+                                class="bestsellers__image"
+                                src="img/cucpake-right.png"
+                                alt="Cupcake - Borovnica"
+                            />
+                            <h3 class="bestsellers__name">Cupcake - Borovnica</h3>
+                        </div>
+                        <div
+                            id="third"
+                            class="bestsellers__item"
+                            style="background-color: bisque"
+                        >
+                            <img
+                                class="bestsellers__image"
+                                src="img/ice-cream-togo.png"
+                                alt="Sladoles - Malina"
+                            />
+                            <h3 class="bestsellers__name">Sladoled - Malina</h3>
+                        </div>
+                        <div
+                            id="fourth"
+                            class="bestsellers__item"
+                            style="background-color:#F3F4F0"
+                        >
+                            <img
+                                class="bestsellers__image"
+                                src="img/cupcake-vanilla.png"
+                                alt="Cupcake - Vanila"
+                            />
+                            <h3 class="bestsellers__name">Cupcake - Vanila</h3>
+                        </div>
+                        <div
+                            id="fifth"
+                            class="bestsellers__item"
+                            style="background-color: #ffc6b6"
+                        >
+                            <img
+                                class="bestsellers__image"
+                                src="img/ice-tea.png"
+                                alt="Ledeni caj - Limun"
+                            />
+                            <h3 class="bestsellers__name">Ledeni čaj - Limun</h3>
+                        </div>
+                        <span class="bestsellers__arrow">&#10095;</span>
+                    </div>
+                </div>
+
+                <div class="products ">
+                    <h2 class="heading-primary u-margin-bottom-small">
+                        <span class="heading-primary--sub">Proizvodi</span>
+                    </h2>
+
+                    <div class="products__list">
+                        <a href="proizvodi.html#cupcake" class="products__link">
+                            <div class="products__item">
+                                <img
+                                    class="products__image"
+                                    src="img/cupcake-cherry.png"
+                                    alt="Proizvod - Cupcake"
+                                />
+                                <h3 class="products__name u-center-text">Cupcake</h3>
+                            </div>
+                        </a>
+                        <a href="proizvodi.html#ice-cream" class="products__link">
+                            <div class="products__item">
+                                <img
+                                    class="products__image"
+                                    src="img/ice-cream-cup.png"
+                                    alt="Proizvod - Sladoled"
+                                />
+                                <h3 class="products__name u-center-text">Sladoled</h3>
+                            </div>
+                        </a>
+                        <a href="proizvodi.html#cookie" class="products__link">
+                            <div class="products__item">
+                                <img
+                                    class="products__image cake"
+                                    src="img/cookie-item.jpg"
+                                    alt="Proizvod - Cookie"
+                                />
+                                <h3 class="products__name u-center-text">Cookie</h3>
+                            </div>
+                        </a>
+                        <a href="proizvodi.html#drinks" class="products__link">
+                            <div class="products__item">
+                                <img
+                                    class="products__image"
+                                    src="img/choco-smoothie.png"
+                                    alt="Proizvod - Pića"
+                                />
+                                <h3 class="products__name u-center-text">Pića</h3>
+                            </div>
+                        </a>
+                        <a href="proizvodi.html#donuts" class="products__link">
+                            <div class="products__item">
+                                <img
+                                    class="products__image"
+                                    src="img/donut-2.png"
+                                    alt="Proizvod - Krofne"
+                                />
+                                <h3 class="products__name u-center-text">Krofne</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="promo-banner">
+                <div class="promo__box">
+                    <div class="promo__box--left">
+                        <h2 class="heading-primary--sub">
+                            Uvek uz vaše najznačajnije momente
+                        </h2>
+
+                        <p class="paragraph u-justify-text">
+                            Svaki najznačajniji momenat u vašem životu mi ulepšavamo i
+                            činimo nezaboravnim. Bez brige mi će mo se pobrinuti da
+                            značajni momenti budu još lepši.
+                        </p>
+
+                        <a href="dostava.html" class="promo__link">
+                            Saznajte Više <span class="promo__link-arrow">&#10095;</span>
+                        </a>
+                    </div>
+
+                    <div class="promo__box--right">
+                        <img
+                            class="promo__box-image"
+                            src="img/birthday-cake.png"
+                            alt="Promo - Image"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <a href="#" class="footer__logo-link">
+                    <span class="footer__logo">Bakeshop</span>
+                </a>
+            </div>
+
+            <div class="footer__nav-links">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <span class="footer__text">Radno vreme: 09-21h</span>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="mailto:info@bakery.com"
+                            ><span class="footer__text">Email: info@bakery.com</span></a
+                        >
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="tel:+38164123456"
+                            ><span class="footer__text">Tel: 064/123-456</span></a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <ul class="footer__list">
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-facebook-f footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-instagram footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-youtube footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-pinterest-p footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-twitter footer__icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/93376c1506.js"></script>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="js/nav.js"></script>
+
+        <script src="js/main.js" async></script>
+    </body>
+</html>

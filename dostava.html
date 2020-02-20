@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <meta name="description" content="Najsladji i najlepši slatkiši" />
+        <meta
+            name="keywords"
+            content="Cookie, Cupcake, Sladoled, Ledeni čaj, Dezerti, Slatkiši"
+        />
+        <meta name="author" content="Teodora Rudic" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Bakery - Dostava</title>
+    </head>
+    <body>
+        <header>
+            <div class="header__logo-box">
+                <a href="index.html" class="header__logo-link"
+                    ><span class="header__logo">Bakeshop</span></a
+                >
+            </div>
+        </header>
+
+        <div class="navigation">
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="proizvodi.html" class="navigation__link">Proizvodi</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="onama.html" class="navigation__link">O nama</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="dostava.html" class="navigation__link navigation__active"
+                            >Dostava</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <span class="navigation__open" id="openbtn">
+            <i class="fas fa-bars"></i>
+        </span>
+
+        <div id="mob__nav" class="navigation__mobile">
+            <span class="closebtn" id="closebtn">
+                &times;
+            </span>
+            <a href="proizvodi.html">Proizvodi</a>
+            <a href="onama.html">O nama</a>
+            <a href="dostava.html">Dostava</a>
+        </div>
+
+        <main>
+            <section class="delivery-section">
+                <div class="delivery__color-box"></div>
+                <div class="delivery__wrapper">
+                    <div class="delivery__content">
+                        <h1 class="delivery__heading margin-bottom--small">
+                            <span class="delivery__heading--main">Dostava</span>
+                        </h1>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quibusdam eveniet excepturi sunt id ipsum magni? Voluptate
+                            quasi ipsa dolorem natus? Ipsa laborum perferendis inventore
+                            quis quas explicabo perspiciatis maxime molestias?
+                        </p>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Officia repellendus consequatur magnam adipisci corporis
+                            excepturi optio suscipit quibusdam animi quia ducimus delectus
+                            cum eius inventore molestias incidunt, tenetur necessitatibus
+                            et!
+                        </p>
+                    </div>
+                    <div class="delivery__hero-box">
+                        <img
+                            src="img/donuts-box.jpg"
+                            alt="Dostava - Hero Slika"
+                            class="delivery__hero-img"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-contact">
+                <div class="contact__wrapper">
+                    <div class="contact__box">
+                        <div class="contact__form">
+                            <form action="#" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-primary">
+                                        <span class="heading-primary--main"
+                                            >Uvek dostupni za vas</span
+                                        >
+                                    </h2>
+                                </div>
+
+                                <div class="form__group">
+                                    <input
+                                        type="text"
+                                        class="form__input"
+                                        placeholder="Ime"
+                                        id="name"
+                                        required
+                                    />
+                                    <label for="name" class="form__label">Ime</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input
+                                        type="email"
+                                        class="form__input"
+                                        placeholder="Email adresa"
+                                        id="email"
+                                        required
+                                    />
+                                    <label for="email" class="form__label"
+                                        >Email adresa</label
+                                    >
+                                </div>
+
+                                <div class="form__group">
+                                    <textarea
+                                        class="form__textarea"
+                                        placeholder="Vaša poruka"
+                                        id="message"
+                                        maxlength="180"
+                                        cols="50"
+                                        rows="6"
+                                        wrap="hard"
+                                        required
+                                    ></textarea>
+                                    <label for="message" class="form__label"
+                                        >Poruka</label
+                                    >
+                                </div>
+
+                                <div class="form__group">
+                                    <button class="btn">Pošalji &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <a href="#" class="footer__logo-link">
+                    <span class="footer__logo">Bakeshop</span>
+                </a>
+            </div>
+
+            <div class="footer__nav-links">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <span class="footer__text">Radno vreme: 09-21h</span>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="mailto:info@bakery.com"
+                            ><span class="footer__text">Email: info@bakery.com</span></a
+                        >
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="tel:+38164123456"
+                            ><span class="footer__text">Tel: 064/123-456</span></a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <ul class="footer__list">
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-facebook-f footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-instagram footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-youtube footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-pinterest-p footer__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="footer__item-social">
+                        <a href="#" class="foooter__link-social">
+                            <i class="fab fa-twitter footer__icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/93376c1506.js"></script>
+
+        <script src="js/nav.js"></script>
+    </body>
+</html>
